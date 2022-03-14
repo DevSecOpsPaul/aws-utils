@@ -1,0 +1,1 @@
+aws ecs update-service --cluster <cluster_name> --service <service_name> --network-configuration "awsvpcConfiguration={subnets=[subnet-id-1,subnet-id-2],securityGroups=[sg-group-that-is-currently-attached-to-ecs-service]}"
